@@ -1,0 +1,10 @@
+git init
+git config user.name "preeyapron"
+git config credential.username "preeyapron"
+git config --global user.email "preeyapronphusaart@gmail.com"
+git config --global user.name "preeyapron"
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin  https://github.com/Preeyapron09/first-project.git
+git push -f origin main
